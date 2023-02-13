@@ -1,0 +1,26 @@
+.converter {
+  width: 400px;
+  text-align: center;
+}
+
+.currency__row {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  input {
+    width: 100%;
+  }
+  input,
+  select {
+    padding: 5px 7px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+
+  select {
+    margin-left: 5px;
+    cursor: pointer;
+  }
+}
